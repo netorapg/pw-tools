@@ -7,12 +7,25 @@
     <link rel="stylesheet" href="geradorNomesFantasia.css">
 </head>
 <body>
-    <div class="container">
+    <header>
         <h1>Gerador de Nomes de Fantasia</h1>
-        <div id="nomeGerado"></div>
-        <button id="gerarNome">Gerar Nome</button>
-    </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div id="nomeGerado"></div>
+            <button id="gerarNome">Gerar Nome</button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; <span id="ano-atual"></span> All rights reserved by netorapg</p>
+    </footer>
 
     <script src="geradorNomesFantasia.js"></script>
+    <script>
+        const anoAtual = new Date().getFullYear();
+        document.getElementById('ano-atual').textContent = anoAtual;
+    </script>
 </body>
 </html>

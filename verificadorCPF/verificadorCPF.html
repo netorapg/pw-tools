@@ -7,14 +7,27 @@
     <link rel="stylesheet" href="verificadorCPF.css">
 </head>
 <body>
-    <div class="container">
+    <header>
         <h1>Verificador de CPF</h1>
-        <label for="cpfInput">Digite o CPF:</label>
-        <input type="text" id="cpfInput" maxlength="14" placeholder="000.000.000-00">
-        <button id="verificarBtn">Verificar</button>
-        <p id="resultado"></p>
-    </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <label for="cpfInput">Digite o CPF:</label>
+            <input type="text" id="cpfInput" maxlength="14" placeholder="000.000.000-00">
+            <button id="verificarBtn">Verificar</button>
+            <p id="resultado"></p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; <span id="ano-atual"></span> All rights reserved by netorapg</p>
+    </footer>
 
     <script src="verificadorCPF.js"></script>
+    <script>
+        const anoAtual = new Date().getFullYear();
+        document.getElementById('ano-atual').textContent = anoAtual;
+    </script>
 </body>
 </html>
