@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #fef5c8;
 }
 
 .container {
@@ -13,8 +13,8 @@ body {
 }
 
 header {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #2c6b74;
+    color: #fef5c8;
     padding: 10px 0;
     text-align: center;
 }
@@ -50,7 +50,7 @@ main {
 .tool-section .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #013750;
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
@@ -58,14 +58,14 @@ main {
 }
 
 .tool-section .btn:hover {
-    background-color: #0056b3;
+    background-color: #f23e02;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #2c6b74;
+    color: #fef5c8;
     text-align: center;
-    padding: 10px 0;
+    padding: 1px 0;
     position: fixed;
     bottom: 0;
     width: 100%;

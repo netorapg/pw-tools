@@ -5,12 +5,12 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #fef5c8;
 }
 
 .container {
     text-align: center;
-    background-color: #fff;
+    background-color: #00988d;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -18,18 +18,19 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: #fef5c8;
 }
 
 #nomeGerado {
     margin: 20px 0;
     font-size: 24px;
+    color: #f23e02;
 }
 
 button {
     padding: 10px 20px;
     font-size: 18px;
-    background-color: #007bff;
+    background-color: #013750;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -37,5 +38,5 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #f23e02;
 }

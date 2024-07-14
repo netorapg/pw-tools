@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="container">
-            <h1>Ferramentas Interativas</h1>
+            <h1>PW Tools</h1>
         </div>
     </header>
 
@@ -41,8 +41,12 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Ferramentas Interativas - Todos os direitos reservados.</p>
+            <p>&copy; <span id="ano-atual"></span> All Rights Reserved by netorapg</p>
         </div>
     </footer>
 </body>
 </html>
+
+<script>
+    const anoAtual = new Date().getFullYear();
+    document.getElementById('ano-atual').textContent = anoAtual;</script>
